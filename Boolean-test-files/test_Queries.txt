@@ -1,0 +1,22 @@
+101
+Headline ONLY
+102
+Content word
+103
+content
+104
+GrapHIC results
+105
+U.S.A.
+106
+C.O.N.T.E.N.T.
+107
+'USA1945'
+108
+commoN
+109
+ubiquitous
+110
+common word, content
+111
+"ubiquitous-HeadLine"

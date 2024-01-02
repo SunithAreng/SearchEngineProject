@@ -1,0 +1,21 @@
+# Ignoring the LA times data #
+latimes.gz
+*.json
+
+# Ignoring Some Files
+**/.DS_Store
+**/__pycache__/
+test.py
+tRelevantDocs.txt
+
+# Ignoring data location #
+data/
+latimes-index/
+latimes-index-stem/
+latimes-index-stem-2/
+sampleDocs/
+**topics.401-450-xml.txt
+qrels/
+results-files/
+Evaluated_Results/
+# sareng.txt

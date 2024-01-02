@@ -1,0 +1,6 @@
+Run_Name Mean_Average_Precision Mean_P@10 Mean_NDCG@10 Mean_NDCG@1000
+sarengBM25Stem 0.248 0.276 0.361 0.482
+sarengCosineNoStem 0.121 0.182 0.219 0.341
+sarengk10.5b0.3 0.223 0.247 0.349 0.437
+sarengBM25noStem 0.206 0.249 0.325 0.420
+sarengAND 0.097 0.133 0.211 0.272
