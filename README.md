@@ -1,4 +1,4 @@
-# Sunith Areng - MSCI 541 - Homework 5
+# Sunith Areng - MSCI 541 - Search Engine
 
 You can follow the instructions below to build and run the program.
 
