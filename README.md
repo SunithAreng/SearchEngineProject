@@ -15,9 +15,12 @@ You can follow the instructions below to build and run the program.
 2. **Cloning the Repository:**
    - Use the following link to clone the repository using the `git clone` command:
      ```bash
-     git clone https://github.com/UWaterloo-MSCI-541/msci-541-f23-hw5-SunithAreng.git
+     git clone https://github.com/SunithAreng/SearchEngineProject.git
      ```
    - Navigate to the directory where the repository was cloned. This directory contains the following  main programs: `SearchEngine`, `IndexEngine`, `GetDoc`, `BM25`, `CosineRank`, `BooleanAND`, and `ResultsEvaluator`.
+
+3. **Sample Data**
+   - The codes in this repository were based on TREC Latimes data. However, due to copyright issues such data couldn't be provided in this repo. In its place, a filler script is used following the same data organization structure allowing the code to be run and tested for its merits. This may require the installation of the Faker library in case you want to run your own script to [create the files](#optionalhelper-programs) or simply use the "qatimes.gz" data that is provided on this repo. Simply use the "qatimes.gz" file as a data file to test out the Search Engine UI.
 
 ## Interactive Retrieval Interface:
 1. **Running SearchEngine Program**
@@ -159,3 +162,18 @@ Some helpful programs to automate results evaluation and collect statistics. [Cl
       python3 ResultsStats.py
       ```
    - The output is a text file "stats.txt" which is created in the root directory as the program.
+  
+3. **Running the Filler Script**
+   - First, install Faker Library. For this run the following command on your terminal.
+     ```bash
+      pip3 install faker
+      ```
+   - Then make sure to navigate to the directory where this repo is stored and simply run the following code on the terminal:
+      ```bash
+      python3 fillerscript.py
+      ```
+   - Upon running the code it should generate "qatimes" document on the same directory. This file needs to be converted to a gzip file. To convert into a gzip file on Mac with its built-in feature, run the following code on Terminal:
+      ```bash
+      gzip qatimes
+      ```
+   - This should now create a qatimes.gz data file in the main directory. Simply use this file from here on now and follow the remaining instructions.
