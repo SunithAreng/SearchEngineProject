@@ -1,6 +1,9 @@
 # Sunith Areng - MSCI 541 - Search Engine
 
 You can follow the instructions below to build and run the program.
+Video demonstrating Search Engine in action can be found below:
+1. [Search Engine returning relevant results](https://youtu.be/wuixiGes-AU)
+2. [Search Engine UI](https://youtu.be/C1Rgrb0tdUw)
 
 ## Initial Setup Instructions 
 
